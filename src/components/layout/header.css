@@ -1,0 +1,25 @@
+.header{
+  width: 100vw;
+  background-color: #282c34;
+  /* padding: rem; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer{
+  margin: 20px;
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
