@@ -1,8 +1,13 @@
 pipeline{
-  agent any
-  tools {
-      nodejs "node"
-  }
+  agent {
+        docker {
+            image 'node:latest'
+            args '-p 3000:3000'
+        }
+    }
+//   tools {
+//       nodejs "node"
+//   }
   stages{
     stage('Build'){
       steps{
