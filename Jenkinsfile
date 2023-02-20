@@ -9,7 +9,7 @@ pipeline{
         sh 'npm install'
       }
     }
-    stage('Deploy'){
+    stage('Deliver'){
       steps{
         sh 'npm start'
       }
